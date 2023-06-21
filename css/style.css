@@ -127,9 +127,8 @@ textarea {
     display: block;
     height: 60px;
     background: #fc3b40;
-    border: none;
-    border-bottom: 2px solid #a0080c;
-    border-radius: 60px;
+    border: none;    
+    border-radius: 5px;
     padding: 0 35px;
     font: 18px/60px "helveticaMedium", Arial;
     color: #fff;
@@ -235,6 +234,7 @@ textarea {
     padding: 0 30px;    
     letter-spacing: 1px;
     background: #dd151a;   
+    border-radius: 5px;
 }
 .header_login i {
     position: absolute;
@@ -247,31 +247,22 @@ textarea {
 
 .header_switch {
     display: flex;    
-    border: 1px solid #bababa; 
+    border: 1px solid #326698; 
+    border-radius: 100px;
 }
 
 .header_link {
     display: block;
-    color: #124b75;
+    color: #326698;
     font-weight: bold;    
-    padding: 5px;       
-}
-
-.header_link:first-child {
-    padding-left: 10px; 
-}
-
-.header_link:last-child {
-    padding-right: 10px;
-}
-
-.header_link__active:hover {
-    background: #f0ffff;
+    padding: 7px 15px;  
+    border-radius: 100px;     
 }
 
 .header_link__inactive {
-    background: #b2b2b2;
-    color: #8c8c8c;  
+    background: #326698;
+    color: #eef5ff; 
+    box-shadow: 0 2px 5px -1px rgb(0 0 0 / 30%);
 }
 
 .header_email {    
@@ -412,8 +403,7 @@ textarea {
     text-align: center;
     padding: 19px 20px 17px;
     line-height: 20px;
-    font-size: 20px;
-    border-bottom-color: #46282b;
+    font-size: 20px;    
 }
 .opportunities {
     display: flex;
