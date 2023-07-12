@@ -3,65 +3,64 @@
 <html lang="ru">
 
 <head>
+	<meta charset="UTF-8">
 
-<meta charset="UTF-8">
-
-<meta name="robots" content="noindex, nofollow"/>
-
+	<meta name="robots" content="noindex, nofollow"/>
+	
 	<title>Transinfo 24</title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1" />	
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
 
-	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1" />
+	<link rel='stylesheet' href='css/fontello.css?ver=4.3.0'  media='all' />
+
 
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-
 	<script src="js/jquery.min.js"></script>
-
 	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>	
 
-	<script src="js/main.js"></script>
+	<!-- Widget button livechat-->
+	<script>
+        (function(w,d,u){
+            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.by/b9559941/crm/site_button/loader_1_szyypf.js');
+    </script>
 
+    
 </head>
 
-<body>
+<body class="page-choise">
 
 <!-- Google Tag Manager (noscript) -->
-
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX5MGJ5"
-
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 <!-- End Google Tag Manager (noscript) -->
 
-
-
 	<div class="page__wrap" id="pageWrap">
-
 		<div class="header">
-
 			<div class="page__inner">
 				<div class="header__info">
 					<a href="index.html" class="header_logo">
 						<img src="css/img/logo.png">
-					</a>								
-					<a class="header_login" href="page_choise.html">Начать работу</a>
+					</a>
 					<div class="header_switch">
-						<span class="header_link header_link__inactive">Перевозчикам</span>							
+						<a class="header_link header_link__active header_link__choise" href="carriers.html">Перевозчикам</a>
 						<a class="header_link header_link__active" href="index.html">Грузовладельцам</a>
 					</div>										
 				</div>
 			</div>
-
 		</div>
 
 		<div class="header_spacer"></div>
-
 		<div class="exchange-block">
-
 			<div class="page__inner">
-
-				<div class="block-titling">Выберите биржу, на которой Вы хотите работать</div>
-
+				<div class="block-titling">Выберите компанию, с которой Вы хотите сотрудничать</div>
 				<div class="exchange-inner">
+
 					<div class="exchange-item">
 						<div class="item-inner">
 							<div class="item-img"><a href="http://eurotorg.transinfo.by/" target="_blank"><img src="css/img/company3.jpg"></a></div>
@@ -75,17 +74,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 					<div class="exchange-item">
 						<div class="item-inner">
-							<div class="item-img"><a href="http://vitalur.transinfo.by/" target="_blank"><img src="css/img/company_vitalur.png"></a>
+							<div class="item-img"><a href="http://gippo.transinfo.by/" target="_blank"><img src="css/img/company_gippo.png"></a>
 							</div>
 							<div class="item-btns">
-								<a class="s-btn" href="http://vitalur.transinfo.by/" target="_blank">Войти</a>
-								<a class="s-btn blue-clr overlayOpen" href="#" data-overlay="formExchange">Запрос на сотрудничество</a>
+								<a class="s-btn" href="http://gippo.transinfo.by/login" target="_blank">Войти</a>
+								<!-- <a class="s-btn blue-clr overlayOpen" href="#" data-overlay="formExchange">Запрос на сотрудничество</a> -->
+								<p class="s-btn blue-clr g-btn-inactive">Запросы не принимаются</p>
 								<div class="to-company" style="display: none">vitalur</div>
 							</div>
 						</div>
 					</div>
 
 					<div class="exchange-item">
+						<div class="item-inner">
+							<div class="item-img"><a href="http://vitalur.transinfo.by/" target="_blank"><img src="css/img/company_vitalur.png"></a>
+							</div>
+							<div class="item-btns">
+								<a class="s-btn" href="http://vitalur.transinfo.by/" target="_blank">Войти</a>
+								<!-- <a class="s-btn blue-clr overlayOpen" href="#" data-overlay="formExchange">Запрос на сотрудничество</a> -->
+								<p class="s-btn blue-clr g-btn-inactive">Запросы не принимаются</p>
+								<div class="to-company" style="display: none">vitalur</div>
+							</div>
+						</div>
+					</div>					
+
+					<!-- <div class="exchange-item">
 						<div class="item-inner">
 							<div class="item-img"><a href="http://fruitreal.transinfo.by/login" target="_blank"><img src="css/img/company_fruitreal.jpeg"></a>
 							</div>
@@ -95,138 +108,100 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="to-company" style="display: none">fruitreal</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 					<!--<div class="exchange-item">
-
 						<div class="item-inner">
-
 							<div class="item-img"><a href="http://khimvolokno.transinfo.by/" target="_blank"><img src="http://transinfo24.by/css/img/company4.jpg"></div>
-
 							<div class="item-btns">
-
 								<a class="s-btn" href="http://khimvolokno.transinfo.by/" target="_blank">Войти</a>
-
 								<p class="s-btn blue-clr" style="width: 436px;margin: 0px;">Временно приостановлено</p>
-
 								<div class="to-company" style="display: none">khimvolokno</div>
-
 							</div>
-
 						</div>
-
 					</div>-->
 
 					<div class="clear"></div>
-
 				</div>
-
 			</div>
-
 		</div>
 
 
 
-		<div class="contact-form">
-			<div class="page__inner">
-				<form id="feedback_form">
-					<div class="block-titling">Если у Вас остались вопросы - задайте их нам</div>
-					<div class="contact_inner">
-						<div class="contact-form_col">
-							<div class="col-item item-email col-item-offs">
-								<input type="text" name="name" placeholder="Введите ваше имя">
-							</div>
-							<div class="col-item item-name">
-								<input type="text" name="email" placeholder="Введите E-mail">
-							</div>
-						</div>
-						<div class="contact-form_col">
-							<textarea name="msg" placeholder="Сообщение"></textarea>
-						</div>
-						<input type="hidden" name="action" value="transinfo24Question">
-						<div class="contact-form_btn">
-							<button class="btn" type="submit">Задать вопрос</button>
-						</div>
-						<div class="clear"></div>
+		<div class="contact-form">	
+			<div class="page__inner">	
+				<div class="contact-form__wrap">
+					<div class="contact-form__img">
+						<img class="slideInLeftContact wow" src="css/img/contact-form-img.png" alt="">
 					</div>
-				</form>
+					<div class="contact-form__content">				
+						<form id="feedback_form">
+							<div class="block-titling">Если у Вас остались вопросы - задайте их нам</div>
+							<div class="contact_inner">
+								<div class="contact-form_col">
+									<div class="col-item item-email">
+										<input type="text" name="name" placeholder="Введите ваше имя">
+									</div>
+									<div class="col-item item-name">
+										<input type="text" name="email" placeholder="Введите E-mail">
+									</div>
+								</div>
+								<div class="contact-form_col">
+									<textarea name="msg" placeholder="Сообщение"></textarea>
+								</div>
+								<input type="hidden" name="action" value="transinfo24Question">
+								<div class="contact-form_btn">
+									<button class="btn" type="submit">Задать вопрос</button>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</form>
+						<script type="text/javascript">
+							$(document).ready(function() {
 
-				<script type="text/javascript">
-					$(document).ready(function() {
-
-						$("#feedback_form").validate({
-							rules: {
-								name: "required",
-								email: {
-									required: true,
-									email: true
-								},
-
-								msg: "required"
-							},
-
-							messages: {
-
-								name: "Пожалуйста, введите ваше имя",
-
-								email: "Пожалуйста, введите ваш email",
-
-								msg: "Пожалуйста, введите сообщение"
-
-							},
-
-							submitHandler: function(form) {
-
-								var formValue = $(form).serialize();
-
-								/* передача данных формы через ajax
-
-								 */
-
-								$.ajax({
-
-									type: 'GET',
-
-									url: 'https://www.transinfo.by/contacts',
-
-									data: formValue,
-
-									dataType: 'json',
-
-									beforeSend: function () {
-
-										$(form).find(".btn").prop("disabled", true);
-
+								$("#feedback_form").validate({
+									rules: {
+										name: "required",
+										email: {
+											required: true,
+											email: true
+										},
+										msg: "required"
 									},
-
-									success: function(data) {
-
-										if (data.success == "true") {
-
-											olAction.overlayOpen("formSuccessQuestion");
-
-											$(form).get(0).reset();
-
-										}
-
+									messages: {
+										name: "Пожалуйста, введите ваше имя",
+										email: "Пожалуйста, введите ваш email",
+										msg: "Пожалуйста, введите сообщение"
 									},
-
-									complete: function () {
-
-										$(form).find(".btn").prop("disabled", false);
-
+									submitHandler: function(form) {
+										var formValue = $(form).serialize();
+										/* передача данных формы через ajax
+										 */
+										$.ajax({
+											type: 'GET',
+											url: 'https://www.transinfo.by/contacts',
+											data: formValue,
+											dataType: 'json',
+											beforeSend: function () {
+												$(form).find(".btn").prop("disabled", true);
+											},
+											success: function(data) {
+												if (data.success == "true") {
+													olAction.overlayOpen("formSuccessQuestion");
+													$(form).get(0).reset();
+												}
+											},
+											complete: function () {
+												$(form).find(".btn").prop("disabled", false);
+											}
+										});
 									}
-
 								});
-
-							}
-
-						});
-
-					});
-
-				</script>
-			</div>
+							});
+						</script>				
+					</div>
+				</div>					
+			</div>		
 		</div>
 
 		<div class="footer">
@@ -234,12 +209,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<a href="index.html" class="footer_logo">
 					<i></i><img src="css/img/logo.png">
 				</a>
-				<a class="footer_email" href="mailto:transinfo24@transinfo.by"><i></i>transinfo24@transinfo.by</a>
+				<a class="footer_email" href="mailto:sales@transinfo.by"><i></i>sales@transinfo.by</a>
 				<p class="footer_phone"><i></i>+375 (29) <b>162-90-60</b></p>
 				<div class="clear"></div>
 				<p class="footer_copyright">
 					ОДО “Современнные логистические ситемы”<br>
-
 					УТП 191099685
 				</p>
 			</div>
@@ -369,9 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				Спасибо. Ваш вопрос отправлен.<br>С Вами свяжутся в ближайшее время.
 			</div>
 		</div>
-	</div>
-
-	
+	</div>	
 
 </body>
 
