@@ -1320,6 +1320,9 @@ ul.d-orange_list li:before {
         width: 100%;
         height: auto;
     }
+    .reviews_block .review_item {
+        margin: 0 20px 30px;
+    }
 
     .contact_inner {
         display: flex;
@@ -1429,6 +1432,9 @@ ul.d-orange_list li:before {
     .screen_img {
         width: 50%;
     }
+    .reviews {
+        justify-content: center;
+    }
     .contact-form_btn {
         width: 100%;
     }
@@ -1445,10 +1451,11 @@ ul.d-orange_list li:before {
         margin: 0 auto;
     }
     .contact-form__img {
-        width: 40%;
+        display: none;
     }
     .contact-form__content {
-        width: 60%;    
+        width: 80%;
+        margin: 0 auto 70px;
     }
 
 }
@@ -1507,7 +1514,8 @@ ul.d-orange_list li:before {
     .visual_left {
         float: none;
         width: 100%;
-        padding-right: 0px;        
+        padding-right: 0px; 
+        text-align: center;       
     }
    
    .visual_right {
@@ -1526,6 +1534,7 @@ ul.d-orange_list li:before {
     .opportunities__title {
         font-size: 18px;
         margin-bottom: 20px;
+        text-align: center;
     }
     .slider_nav {
         display: flex;
@@ -1599,6 +1608,9 @@ ul.d-orange_list li:before {
     ul.d-orange_list {
         width: 100%;
     }
+    .reviews_block .review_item {
+        margin: 0 0px 30px;
+    }
     .start-block {
         padding: 0px 0 100px;
     }
@@ -1608,13 +1620,9 @@ ul.d-orange_list li:before {
     .contact-form {
         padding: 60px 0 0px;
     }
-    .contact-form__img {
-        display: none;   
-    }
+   
     .contact-form__content {
-        width: 100%;
-        position: relative;
-        margin-bottom: 70px;
+        width: 100%;        
     }
     .footer_logo {
         float: none;
@@ -1658,6 +1666,7 @@ ul.d-orange_list li:before {
         padding: 0 20px;
         font-size: 15px;
         height: 40px;
+        line-height: 40px;
     }
     .page__inner {
         max-width: 300px;
@@ -1666,7 +1675,7 @@ ul.d-orange_list li:before {
         text-align: center;
     }   
     .visual_title {
-        font-size: 22px;        
+        font-size: 25px;        
     }
     .visual_offer {
         font-size: 16px;
